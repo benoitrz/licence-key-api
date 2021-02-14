@@ -1,11 +1,8 @@
 {
   "name": "licence-key-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Technical test covering implementation of simple endpoints in Node, using Express.",
   "main": "app.js",
-  "directories": {
-    "test": "test"
-  },
   "dependencies": {
     "body-parser": "^1.18.3",
     "chai": "^4.2.0",

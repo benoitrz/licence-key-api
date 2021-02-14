@@ -1,5 +1,5 @@
 const crypto = require('crypto');
-const { formatString, endpointPath, authorizationSecret } = require('../utils');
+const { formatString, endpointPath, authorizationSecret } = require('./utils');
 
 const appRouter = (app) => {
  	const internalPrivateKey = crypto.randomBytes(64).toString('hex');

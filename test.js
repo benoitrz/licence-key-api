@@ -2,8 +2,8 @@ const chai = require('chai');
 const chaiHttp = require('chai-http');
 chai.use(chaiHttp);
 const expect = chai.expect;
-const server = require('../app');
-const { endpointPath, authorizationSecret: secret } = require('../utils');
+const server = require('./app');
+const { endpointPath, authorizationSecret: secret } = require('./utils');
 
 const softwareName = 'armLicenceApi', fullName = 'Benoit Trzpit';
 let newLicenceKey;
